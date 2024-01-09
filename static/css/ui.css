@@ -1,0 +1,58 @@
+/* ui.css */
+
+footer.svelte-1ax1toq {
+    display: none !important;
+    }
+
+/* gradio-app {
+    background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab) !important;
+    background: linear-gradient(-45deg, #e73c7e, #23a6d5) !important;
+    animation: gradientBG 5s ease infinite !important;
+    background-size: 100% 100% !important;
+} */
+
+/* .main.svelte-1kyws56 {
+    background-color: white !important;
+    box-shadow:
+        0 0 10px 3px rgba(231, 60, 126, 0.6),
+        0 0 20px 6px rgba(35, 166, 213, 0.6),
+        0 0 30px 9px rgba(231, 60, 126, 0.3),
+        0 0 40px 12px rgba(35, 166, 213, 0.3),
+        0 0 50px 15px white !important;
+} */
+
+/*聊天对话背景*/
+.wrapper.svelte-nab2ao{
+    background: linear-gradient(-45deg, #e73c7e, #23a6d5) !important;
+    animation: gradientBG 5s ease infinite !important;
+    background-size: 100% 100% !important;
+}
+/*按钮背景*/
+/* .lg.secondary.svelte-cmf5ev{
+    background: linear-gradient(-45deg, #e73c7e, #23a6d5) !important;
+    animation: gradientBG 5s ease infinite !important;
+    background-size: 100% 100% !important;
+} */
+
+/* .svelte-vt1mxs.gap.panel{
+    background: linear-gradient(-45deg, #e73c7e, #23a6d5) !important;
+    animation: gradientBG 5s ease infinite !important;
+    background-size: 100% 100% !important;
+} */
+
+@keyframes gradientBG {
+    0% {
+        background-position: 0% 50% !important;
+    }
+    50% {
+        background-position: 100% 50% !important;
+    }
+    100% {
+        background-position: 0% 50% !important;
+    }
+}
+
+/* 你可能还需要确保其他 Gradio 组件的背景是透明的，例如： */
+/* .gr-interface, .gr-row, .gr-column {
+    background: whitesmoke !important;
+} */
